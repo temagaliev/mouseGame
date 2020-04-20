@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244615EF23F9EB6F007914AB /* PrivacyPolicyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244615EE23F9EB6F007914AB /* PrivacyPolicyManager.swift */; };
+		248B280423F6A19A00B40149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B280323F6A19A00B40149 /* AppDelegate.swift */; };
+		248B280623F6A19A00B40149 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 248B280523F6A19A00B40149 /* GameScene.sks */; };
+		248B280A23F6A19A00B40149 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B280923F6A19A00B40149 /* GameScene.swift */; };
+		248B280C23F6A19A00B40149 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B280B23F6A19A00B40149 /* GameViewController.swift */; };
+		248B280F23F6A19A00B40149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248B280D23F6A19A00B40149 /* Main.storyboard */; };
+		248B281123F6A19C00B40149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248B281023F6A19C00B40149 /* Assets.xcassets */; };
+		248B281423F6A19C00B40149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248B281223F6A19C00B40149 /* LaunchScreen.storyboard */; };
+		248B281C23F6A20900B40149 /* Trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B281B23F6A20900B40149 /* Trap.swift */; };
+		248B281E23F6A21600B40149 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B281D23F6A21600B40149 /* Mouse.swift */; };
+		248B282023F6A2D600B40149 /* Backgraund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B281F23F6A2D600B40149 /* Backgraund.swift */; };
+		24C2688E23F9AD4E0085B578 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2688D23F9AD4E0085B578 /* Notifications.swift */; };
+		24D53AB523F6AC3300721243 /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D53AB423F6AC3300721243 /* Cheese.swift */; };
+		24D53AB723F7322400721243 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D53AB623F7322400721243 /* BitMaskCategory.swift */; };
+		24D53AB923F7373900721243 /* CheeseParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D53AB823F7373900721243 /* CheeseParticle.sks */; };
+		24D53ABB23F73F0B00721243 /* TrapParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D53ABA23F73F0B00721243 /* TrapParticle.sks */; };
+		24D53ABD23F7E2B300721243 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D53ABC23F7E2B300721243 /* MenuScene.swift */; };
+		24D53AC923F7EC1F00721243 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D53AC823F7EC1F00721243 /* MenuScene.sks */; };
+		24D53ACB23F8047700721243 /* PauseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D53ACA23F8047700721243 /* PauseScene.swift */; };
+		24D53ACD23F804A700721243 /* PauseScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D53ACC23F804A700721243 /* PauseScene.sks */; };
+		24D53ACF23F812A200721243 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D53ACE23F812A200721243 /* GameOverScene.swift */; };
+		24D53AD123F813F000721243 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D53AD023F813F000721243 /* GameOverScene.sks */; };
+		24D53AD323F81CEA00721243 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D53AD223F81CEA00721243 /* SceneManager.swift */; };
+		24D53ADA23F85F1300721243 /* cheeseSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D53AD923F85F1300721243 /* cheeseSound.mp3 */; };
+		24D53ADC23F85F1A00721243 /* trapSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D53ADB23F85F1A00721243 /* trapSound.mp3 */; };
+		24D53ADF23F878ED00721243 /* SenderButtonNameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D53ADE23F878ED00721243 /* SenderButtonNameManager.swift */; };
+		24F4662623F98A2800F03372 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24F4662523F98A2800F03372 /* GoogleService-Info.plist */; };
+		24F796FA23F9BE57005A28D8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F796F923F9BE57005A28D8 /* WebViewController.swift */; };
+		C1766E2D16DF1CE9C91C7946 /* Pods_Mouse_racing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16C5F2F9CB867ACC3838204 /* Pods_Mouse_racing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		244615EE23F9EB6F007914AB /* PrivacyPolicyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyManager.swift; sourceTree = "<group>"; };
+		248B280023F6A19A00B40149 /* Mouse racing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mouse racing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		248B280323F6A19A00B40149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		248B280523F6A19A00B40149 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		248B280923F6A19A00B40149 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		248B280B23F6A19A00B40149 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		248B280E23F6A19A00B40149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		248B281023F6A19C00B40149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		248B281323F6A19C00B40149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		248B281523F6A19C00B40149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248B281B23F6A20900B40149 /* Trap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trap.swift; sourceTree = "<group>"; };
+		248B281D23F6A21600B40149 /* Mouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mouse.swift; sourceTree = "<group>"; };
+		248B281F23F6A2D600B40149 /* Backgraund.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backgraund.swift; sourceTree = "<group>"; };
+		24C2688D23F9AD4E0085B578 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		24D53AB423F6AC3300721243 /* Cheese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheese.swift; sourceTree = "<group>"; };
+		24D53AB623F7322400721243 /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
+		24D53AB823F7373900721243 /* CheeseParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CheeseParticle.sks; sourceTree = "<group>"; };
+		24D53ABA23F73F0B00721243 /* TrapParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TrapParticle.sks; sourceTree = "<group>"; };
+		24D53ABC23F7E2B300721243 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		24D53AC823F7EC1F00721243 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		24D53ACA23F8047700721243 /* PauseScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseScene.swift; sourceTree = "<group>"; };
+		24D53ACC23F804A700721243 /* PauseScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PauseScene.sks; sourceTree = "<group>"; };
+		24D53ACE23F812A200721243 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		24D53AD023F813F000721243 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		24D53AD223F81CEA00721243 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		24D53AD923F85F1300721243 /* cheeseSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheeseSound.mp3; sourceTree = "<group>"; };
+		24D53ADB23F85F1A00721243 /* trapSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trapSound.mp3; sourceTree = "<group>"; };
+		24D53ADE23F878ED00721243 /* SenderButtonNameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderButtonNameManager.swift; sourceTree = "<group>"; };
+		24D53AE023F94ECB00721243 /* Mouse racing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mouse racing.entitlements"; sourceTree = "<group>"; };
+		24F4662523F98A2800F03372 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24F796F923F9BE57005A28D8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		A86B4B238826BB2B8F9C7AA8 /* Pods-Mouse racing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mouse racing.debug.xcconfig"; path = "Target Support Files/Pods-Mouse racing/Pods-Mouse racing.debug.xcconfig"; sourceTree = "<group>"; };
+		B16C5F2F9CB867ACC3838204 /* Pods_Mouse_racing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mouse_racing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA10DAEB67C026C66DB7E71 /* Pods-Mouse racing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mouse racing.release.xcconfig"; path = "Target Support Files/Pods-Mouse racing/Pods-Mouse racing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248B27FD23F6A19A00B40149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1766E2D16DF1CE9C91C7946 /* Pods_Mouse_racing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248B27F723F6A19A00B40149 = {
+			isa = PBXGroup;
+			children = (
+				248B280223F6A19A00B40149 /* Mouse racing */,
+				248B280123F6A19A00B40149 /* Products */,
+				9677CD250CDCC48C49E7974A /* Pods */,
+				C1DF8A944B69CF7AB19BDEAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		248B280123F6A19A00B40149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248B280023F6A19A00B40149 /* Mouse racing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248B280223F6A19A00B40149 /* Mouse racing */ = {
+			isa = PBXGroup;
+			children = (
+				24D53AE023F94ECB00721243 /* Mouse racing.entitlements */,
+				24D53AC123F7E33400721243 /* Particles */,
+				24D53ABF23F7E2F200721243 /* Object for Scene */,
+				24D53ABE23F7E2DE00721243 /* Scenes */,
+				24D53AC023F7E30300721243 /* Controllers */,
+				24D53AC223F7E35700721243 /* Managers */,
+				24D53AD423F85E9300721243 /* MusicFile */,
+				24D53ADD23F8668D00721243 /* Other files */,
+				248B280D23F6A19A00B40149 /* Main.storyboard */,
+				248B281223F6A19C00B40149 /* LaunchScreen.storyboard */,
+				248B281023F6A19C00B40149 /* Assets.xcassets */,
+				248B281523F6A19C00B40149 /* Info.plist */,
+				24F4662523F98A2800F03372 /* GoogleService-Info.plist */,
+			);
+			path = "Mouse racing";
+			sourceTree = "<group>";
+		};
+		24D53ABE23F7E2DE00721243 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				248B280923F6A19A00B40149 /* GameScene.swift */,
+				24D53ABC23F7E2B300721243 /* MenuScene.swift */,
+				24D53ACA23F8047700721243 /* PauseScene.swift */,
+				24D53ACE23F812A200721243 /* GameOverScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		24D53ABF23F7E2F200721243 /* Object for Scene */ = {
+			isa = PBXGroup;
+			children = (
+				248B281B23F6A20900B40149 /* Trap.swift */,
+				248B281D23F6A21600B40149 /* Mouse.swift */,
+				24D53AB423F6AC3300721243 /* Cheese.swift */,
+				248B281F23F6A2D600B40149 /* Backgraund.swift */,
+			);
+			path = "Object for Scene";
+			sourceTree = "<group>";
+		};
+		24D53AC023F7E30300721243 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				248B280B23F6A19A00B40149 /* GameViewController.swift */,
+				24F796F923F9BE57005A28D8 /* WebViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24D53AC123F7E33400721243 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				24D53ABA23F73F0B00721243 /* TrapParticle.sks */,
+				24D53AB823F7373900721243 /* CheeseParticle.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		24D53AC223F7E35700721243 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				24D53AB623F7322400721243 /* BitMaskCategory.swift */,
+				24D53AD223F81CEA00721243 /* SceneManager.swift */,
+				24D53ADE23F878ED00721243 /* SenderButtonNameManager.swift */,
+				24C2688D23F9AD4E0085B578 /* Notifications.swift */,
+				244615EE23F9EB6F007914AB /* PrivacyPolicyManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		24D53AD423F85E9300721243 /* MusicFile */ = {
+			isa = PBXGroup;
+			children = (
+				24D53AD923F85F1300721243 /* cheeseSound.mp3 */,
+				24D53ADB23F85F1A00721243 /* trapSound.mp3 */,
+			);
+			path = MusicFile;
+			sourceTree = "<group>";
+		};
+		24D53ADD23F8668D00721243 /* Other files */ = {
+			isa = PBXGroup;
+			children = (
+				248B280323F6A19A00B40149 /* AppDelegate.swift */,
+				24D53ACC23F804A700721243 /* PauseScene.sks */,
+				248B280523F6A19A00B40149 /* GameScene.sks */,
+				24D53AC823F7EC1F00721243 /* MenuScene.sks */,
+				24D53AD023F813F000721243 /* GameOverScene.sks */,
+			);
+			path = "Other files";
+			sourceTree = "<group>";
+		};
+		9677CD250CDCC48C49E7974A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A86B4B238826BB2B8F9C7AA8 /* Pods-Mouse racing.debug.xcconfig */,
+				DEA10DAEB67C026C66DB7E71 /* Pods-Mouse racing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1DF8A944B69CF7AB19BDEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16C5F2F9CB867ACC3838204 /* Pods_Mouse_racing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		248B27FF23F6A19A00B40149 /* Mouse racing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248B281823F6A19C00B40149 /* Build configuration list for PBXNativeTarget "Mouse racing" */;
+			buildPhases = (
+				8D1E2166C9C3CF605FDE2D5F /* [CP] Check Pods Manifest.lock */,
+				248B27FC23F6A19A00B40149 /* Sources */,
+				248B27FD23F6A19A00B40149 /* Frameworks */,
+				248B27FE23F6A19A00B40149 /* Resources */,
+				1A7197EFD70CB09BDD3CD8EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mouse racing";
+			productName = "Mouse racing";
+			productReference = 248B280023F6A19A00B40149 /* Mouse racing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248B27F823F6A19A00B40149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Артем Галиев";
+				TargetAttributes = {
+					248B27FF23F6A19A00B40149 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 248B27FB23F6A19A00B40149 /* Build configuration list for PBXProject "Mouse racing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 248B27F723F6A19A00B40149;
+			productRefGroup = 248B280123F6A19A00B40149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248B27FF23F6A19A00B40149 /* Mouse racing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248B27FE23F6A19A00B40149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D53ABB23F73F0B00721243 /* TrapParticle.sks in Resources */,
+				24D53ACD23F804A700721243 /* PauseScene.sks in Resources */,
+				24D53ADC23F85F1A00721243 /* trapSound.mp3 in Resources */,
+				248B280F23F6A19A00B40149 /* Main.storyboard in Resources */,
+				248B280623F6A19A00B40149 /* GameScene.sks in Resources */,
+				24F4662623F98A2800F03372 /* GoogleService-Info.plist in Resources */,
+				248B281123F6A19C00B40149 /* Assets.xcassets in Resources */,
+				248B281423F6A19C00B40149 /* LaunchScreen.storyboard in Resources */,
+				24D53ADA23F85F1300721243 /* cheeseSound.mp3 in Resources */,
+				24D53AB923F7373900721243 /* CheeseParticle.sks in Resources */,
+				24D53AD123F813F000721243 /* GameOverScene.sks in Resources */,
+				24D53AC923F7EC1F00721243 /* MenuScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A7197EFD70CB09BDD3CD8EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mouse racing/Pods-Mouse racing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mouse racing/Pods-Mouse racing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mouse racing/Pods-Mouse racing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1E2166C9C3CF605FDE2D5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mouse racing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248B27FC23F6A19A00B40149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D53ADF23F878ED00721243 /* SenderButtonNameManager.swift in Sources */,
+				248B281C23F6A20900B40149 /* Trap.swift in Sources */,
+				24D53AB723F7322400721243 /* BitMaskCategory.swift in Sources */,
+				24D53ACF23F812A200721243 /* GameOverScene.swift in Sources */,
+				248B282023F6A2D600B40149 /* Backgraund.swift in Sources */,
+				24D53ABD23F7E2B300721243 /* MenuScene.swift in Sources */,
+				248B281E23F6A21600B40149 /* Mouse.swift in Sources */,
+				24D53ACB23F8047700721243 /* PauseScene.swift in Sources */,
+				24C2688E23F9AD4E0085B578 /* Notifications.swift in Sources */,
+				248B280A23F6A19A00B40149 /* GameScene.swift in Sources */,
+				24D53AB523F6AC3300721243 /* Cheese.swift in Sources */,
+				248B280C23F6A19A00B40149 /* GameViewController.swift in Sources */,
+				24D53AD323F81CEA00721243 /* SceneManager.swift in Sources */,
+				24F796FA23F9BE57005A28D8 /* WebViewController.swift in Sources */,
+				244615EF23F9EB6F007914AB /* PrivacyPolicyManager.swift in Sources */,
+				248B280423F6A19A00B40149 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		248B280D23F6A19A00B40149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248B280E23F6A19A00B40149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		248B281223F6A19C00B40149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248B281323F6A19C00B40149 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248B281623F6A19C00B40149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		248B281723F6A19C00B40149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		248B281923F6A19C00B40149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86B4B238826BB2B8F9C7AA8 /* Pods-Mouse racing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mouse racing/Mouse racing.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPSARM5WXZ;
+				INFOPLIST_FILE = "Mouse racing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.galiev.Mouse-racing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		248B281A23F6A19C00B40149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA10DAEB67C026C66DB7E71 /* Pods-Mouse racing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mouse racing/Mouse racing.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPSARM5WXZ;
+				INFOPLIST_FILE = "Mouse racing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.galiev.Mouse-racing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248B27FB23F6A19A00B40149 /* Build configuration list for PBXProject "Mouse racing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248B281623F6A19C00B40149 /* Debug */,
+				248B281723F6A19C00B40149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248B281823F6A19C00B40149 /* Build configuration list for PBXNativeTarget "Mouse racing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248B281923F6A19C00B40149 /* Debug */,
+				248B281A23F6A19C00B40149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 248B27F823F6A19A00B40149 /* Project object */;
+}
